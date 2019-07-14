@@ -1,0 +1,35 @@
+0	0.24829	text docno doc water transportation house oberstar rail coast representatives infrastructure act chairman safety gentleman committee guard speaker program amendment // Societal Infrastructure
+1	1.05351	people american congress great country day life america today house nation world united family home war americans history congressman men // Patriotism
+2	0.34536	energy oil gas prices natural percent it's country today america doc drilling price fuel drill text coal docno companies that's // Energy Economoy
+3	0.34065	doc docno text defense military iraq chairman speaker troops house national forces committee war bill representatives armed hunter men army // Military 
+4	1.32105	bill act federal house h.r amendment congress time legislation law national government committee current urge provide passed balance reserve representatives // Request for Legislation Approval 
+5	0.28291	appropriations chairman amendment bill text doc docno million funding gentleman house related agencies earmarks act department year representatives committee program // Government Finance
+6	0.1377	texas speaker jackson-lee united states children rights african conyers black h.r women johnson percent legislation justice civil court committee congressional // Civil Rights
+7	0.20635	housing text docno doc chairman bill gentleman frank amendment massachusetts people act program representatives financial house insurance mortgage home affordable // Housing Market
+8	0.18027	bill docno doc text farm energy speaker michigan food farmers support house research stem act agriculture representatives committee dingell h.r // Agriculture
+9	0.2469	science research docno text doc energy national technology space program small speaker house representatives bill support development amendment chairman h.r // Scientific Research
+10	0.12949	mrs york text doc docno speaker health women pallone representatives children colleagues maloney cancer madam wisconsin house kagen care capps // Women's Health
+11	0.20479	health care medicare insurance medical program speaker year texas system percent patients congress schip physician physicians cost doctors drug hospital // Universal Health Care
+12	0.15813	tax trade text docno speaker doc today agreement bill house workers taxes amt energy percent jobs benefits ways relief means // Trade Policies
+13	0.69533	iraq war president troops military american iraqi people docno administration text speaker doc security house congress end representatives u.s policy // War in Iraq 
+14	0.13369	speaker rule consideration rules house committee providing h.r text time madam doc amendment docno hastings congress washington question yield debate // House Rules
+15	0.3266	doc docno speaker text house representatives time davis illinois h.r office resolution madam bill yield service post national support consume // Bill Resolution
+16	0.23042	intelligence security docno doc text homeland act foreign house protect bill fisa representatives surveillance terrorist united national community speaker terrorists // National Intelligence 
+17	0.23875	education students college california text act docno doc student program miller school amendment programs chairman head speaker schools higher start // Education
+18	0.20158	veterans text doc docno speaker care house representatives bill war minnesota kansas affairs service military health support time benefits h.r // Veterans Affairs
+19	0.35815	american tax speaker spending docno doc text house budget increase majority taxes federal government democrats congress democrat money representatives percent // Tax and Budget
+20	0.20055	doc text docno land national bill act house representatives federal lands speaker water county park utah native bishop oregon resources // National Parks
+21	0.17171	border states united speaker texas docno doc text drug agents illegal poe american law people immigration patrol government country u.s // Border Issues
+22	0.09323	speaker jersey children abortion human garrett life pence day today madam america nation free doc unborn freedom liberty docno text // Abortion
+23	1.09056	people don't it's time that's text back doc things docno make money we're thing country fact representatives lot bill put // Public Sentiment
+24	0.11565	ohio trade jobs doc u.s docno text workers billion oil american sutton kucinich companies country kaptur street labor united free // Job Market
+25	0.72404	house bill doc docno text committee speaker representatives gentleman members time vote senate floor president program friend work majority bills // Senate Reports 
+26	0.17001	house congress president florida speaker working docno text members doc group american important republican make care people murphy connecticut ryan // Speakers from Florida
+27	0.08582	oil energy world years percent chart peak fossil production big nuclear fuel coal reserves shows ago fuels gas curve find // Fuel Consumption 
+28	0.12267	iowa speaker states united king congress energy people percent america floor law tax ethanol that's million health number back language // Alcohol Tax
+29	0.18994	budget tax billion debt fiscal year blue resolution doc docno house money years dog text spending speaker trillion coalition cuts // Budget Concerns
+30	0.23309	text docno speaker doc united human resolution states israel representatives house rights countries iran world international foreign government people nuclear // Foreign Issues 
+31	0.09616	carolina speaker georgia south text north docno doc gingrey foxx wilson house democrats colleagues representatives september god madam democratic gohmert // Speakers from the Southeast
+32	1.74644	time years work year country issue states state part back make place made past forward small great future issues important // Nationalism
+33	1.50598	support important legislation colleagues rise today state chairman efforts resolution leadership member including states u.s district ensure strong local continue // Legislation Support Reports
+34	0.93319	doc docno text health children house families representatives act support care bill american today legislation speaker people americans million president // Health Care Legislation
