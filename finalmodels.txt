@@ -1,0 +1,118 @@
+Final Model Based on All Homes
+lm(formula = .outcome ~ ., data = dat)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-59188 -10594  -1209  10861  81691 
+
+Coefficients:
+                            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                15942.295   8064.459   1.977 0.048274 *  
+BsmtFinSF1                    29.917      2.600  11.506  < 2e-16 ***
+BsmtFinSF2                    24.420      3.718   6.568 7.40e-11 ***
+BsmtUnfSF                     22.017      2.516   8.752  < 2e-16 ***
+X1stFlrSF                     34.974      2.932  11.928  < 2e-16 ***
+X2ndFlrSF                     43.517      1.794  24.256  < 2e-16 ***
+GarageArea                    17.703      3.804   4.653 3.61e-06 ***
+WoodDeckSF                    17.439      4.307   4.049 5.46e-05 ***
+ScreenPorch                   27.084      9.117   2.971 0.003026 ** 
+homeage                     -128.322     30.797  -4.167 3.30e-05 ***
+MSZoningisFV               24508.482   4755.472   5.154 2.96e-07 ***
+MSZoningisRL               17230.067   3709.220   4.645 3.75e-06 ***
+MSZoningisRM               11419.858   3820.938   2.989 0.002855 ** 
+LotConfigisCulDSac          7467.579   2053.198   3.637 0.000287 ***
+NeighborhoodisNoRidge      19300.283   3395.069   5.685 1.62e-08 ***
+NeighborhoodisNridgHt      16438.290   3214.896   5.113 3.66e-07 ***
+NeighborhoodisStoneBr      20200.527   4675.845   4.320 1.68e-05 ***
+Condition1isNorm            4320.640   1486.320   2.907 0.003713 ** 
+YearRemodAddis1976         -9559.041   3474.818  -2.751 0.006027 ** 
+YearRemodAddis2008         28165.941   4034.315   6.982 4.70e-12 ***
+YearRemodAddis2009         42618.497   7668.686   5.557 3.33e-08 ***
+RoofMatlisCompShg         -19453.536   5250.432  -3.705 0.000220 ***
+RoofMatlisRoll            -49025.431  18729.426  -2.618 0.008961 ** 
+`\\`RoofMatlisTar&Grv\\`` -20852.184   7708.296  -2.705 0.006919 ** 
+Exterior1stisCemntBd       25528.235  11173.867   2.285 0.022499 *  
+Exterior2ndisCmentBd      -22386.579  11221.220  -1.995 0.046254 *  
+BsmtQualisFa              -17550.680   4045.023  -4.339 1.55e-05 ***
+BsmtQualisGd              -15025.080   2304.379  -6.520 1.01e-10 ***
+BsmtQualisTA              -18954.084   2496.311  -7.593 6.04e-14 ***
+BsmtExposureisGd            7105.496   2016.889   3.523 0.000442 ***
+FullBathis3                12761.521   4322.429   2.952 0.003211 ** 
+BedroomAbvGris3             2031.529   1106.150   1.837 0.066506 .  
+BedroomAbvGris5           -18866.398   4522.048  -4.172 3.22e-05 ***
+BedroomAbvGris6           -28051.457   7023.371  -3.994 6.87e-05 ***
+TotRmsAbvGrdis7            -2618.911   1412.425  -1.854 0.063943 .  
+TotRmsAbvGrdis8            -3662.880   1815.270  -2.018 0.043821 *  
+TotRmsAbvGrdis9            -6490.051   2751.944  -2.358 0.018507 *  
+FunctionalisTyp            14545.494   2028.806   7.169 1.28e-12 ***
+Fireplacesis2              12077.759   1985.572   6.083 1.56e-09 ***
+GarageTypeisAttchd          5464.409   1812.794   3.014 0.002626 ** 
+GarageTypeisDetchd          7002.491   2157.495   3.246 0.001202 ** 
+GarageYrBltis1918         -27879.946  13101.650  -2.128 0.033532 *  
+GarageYrBltis1934          27783.492  12970.336   2.142 0.032377 *  
+GarageFinishisRFn          -5227.481   1463.875  -3.571 0.000369 ***
+GarageFinishisUnf          -7969.865   1599.092  -4.984 7.09e-07 ***
+GarageCarsis3              11198.908   2439.685   4.590 4.87e-06 ***
+MoSoldis5                   2902.835   1421.822   2.042 0.041395 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 17880 on 1268 degrees of freedom
+Multiple R-squared:  0.8431,	Adjusted R-squared:  0.8374 
+F-statistic: 148.1 on 46 and 1268 DF,  p-value: < 2.2e-16
+
+
+Final Model Based on Remodeled Homes Only
+Call:
+lm(formula = .outcome ~ ., data = dat)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-53939 -11069  -1426  10115  63150 
+
+Coefficients:
+                            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                40417.479  11304.491   3.575 0.000378 ***
+BsmtFinSF1                    28.616      3.751   7.629 9.48e-14 ***
+BsmtFinSF2                    21.756      5.210   4.176 3.41e-05 ***
+BsmtUnfSF                     20.804      3.647   5.704 1.85e-08 ***
+X1stFlrSF                     34.089      3.848   8.859  < 2e-16 ***
+X2ndFlrSF                     37.800      2.009  18.817  < 2e-16 ***
+GarageArea                    16.748      4.954   3.381 0.000771 ***
+WoodDeckSF                    23.512      6.481   3.628 0.000311 ***
+ScreenPorch                   36.828     13.219   2.786 0.005505 ** 
+homeage                     -174.964     41.854  -4.180 3.35e-05 ***
+MSZoningisFV               36083.183   6728.083   5.363 1.17e-07 ***
+MSZoningisRL               18107.311   4361.704   4.151 3.79e-05 ***
+MSZoningisRM               13953.711   4403.915   3.168 0.001611 ** 
+NeighborhoodisNoRidge      25849.542   5066.649   5.102 4.53e-07 ***
+NeighborhoodisNridgHt       9449.002   4908.608   1.925 0.054708 .  
+NeighborhoodisStoneBr      19651.294   8305.542   2.366 0.018299 *  
+Condition1isNorm            6121.903   1992.953   3.072 0.002225 ** 
+YearRemodAddis2008         15645.043   5025.000   3.113 0.001938 ** 
+YearRemodAddis2009         49216.140  10713.705   4.594 5.32e-06 ***
+RoofMatlisCompShg         -42444.993   8601.625  -4.935 1.04e-06 ***
+RoofMatlisRoll            -68152.704  20029.387  -3.403 0.000712 ***
+`\\`RoofMatlisTar&Grv\\`` -35391.221  13593.358  -2.604 0.009457 ** 
+BsmtQualisFa              -15520.313   4940.928  -3.141 0.001766 ** 
+BsmtQualisGd              -15793.138   3352.000  -4.712 3.06e-06 ***
+BsmtQualisTA              -16317.576   3617.446  -4.511 7.79e-06 ***
+BsmtExposureisGd            6674.880   3203.875   2.083 0.037644 *  
+BedroomAbvGris5           -11457.935   5300.406  -2.162 0.031039 *  
+FunctionalisTyp            15194.516   2483.676   6.118 1.72e-09 ***
+Fireplacesis2              18309.369   2689.078   6.809 2.41e-11 ***
+GarageTypeisAttchd          9478.075   2647.730   3.580 0.000372 ***
+GarageTypeisDetchd          9250.023   2941.411   3.145 0.001745 ** 
+GarageYrBltis1934          29642.528  13104.023   2.262 0.024052 *  
+GarageFinishisRFn          -6046.345   2376.583  -2.544 0.011207 *  
+GarageFinishisUnf          -8817.041   2415.409  -3.650 0.000285 ***
+GarageCarsis3              10515.389   3693.671   2.847 0.004568 ** 
+MoSoldis5                   5933.315   2013.379   2.947 0.003335 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 17870 on 594 degrees of freedom
+Multiple R-squared:  0.8686,	Adjusted R-squared:  0.8609 
+F-statistic: 112.2 on 35 and 594 DF,  p-value: < 2.2e-16
+
+
